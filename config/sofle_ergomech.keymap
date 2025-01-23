@@ -27,6 +27,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        spotlight {
+            bindings = <&kp LC(LG(SPACE))>;
+            key-positions = <0 11>;
+        };
+
+        switch_lang {
+            bindings = <&kp LA(LC(SPACE))>;
+            key-positions = <12 23>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
