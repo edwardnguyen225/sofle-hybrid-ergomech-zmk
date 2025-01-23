@@ -1,6 +1,7 @@
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ESC, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, ESCAPE, LALT, LGUI, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, ESCAPE, LALT, LGUI, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, '&mkp LCLK', '&mmv MOVE_RIGHT', '&mmv MOVE_UP',
+    '&mmv MOVE_LEFT', '&mmv MOVE_DOWN']
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -61,11 +62,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - '&mkp RCLK'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   raise:
   - BT CLR
   - {t: BT, h: '0'}
