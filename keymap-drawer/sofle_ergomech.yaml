@@ -77,8 +77,8 @@ layers:
   - BRIGHTNESS INC
   - VOLUME UP
   - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREVIOUS
+  - NEXT
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -89,7 +89,7 @@ layers:
   - BRIGHTNESS DEC
   - VOLUME DOWN
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
