@@ -1,6 +1,6 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ESC, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, ESCAPE, LALT, LGUI, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -73,10 +73,10 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - BRIGHTNESS INC
+  - VOLUME UP
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,8 +86,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
-  - UP
+  - BRIGHTNESS DEC
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -97,9 +97,9 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
   - LEFT
-  - DOWN
+  - DOWN ARROW
+  - UP ARROW
   - RIGHT
   - DEL
   - BSPC
@@ -196,3 +196,8 @@ layers:
   - C
   - D
   - E
+combos:
+- p: [0, 11]
+  k: Ctl+Gui+SPACE
+- p: [12, 23]
+  k: Alt+Ctl+SPACE
