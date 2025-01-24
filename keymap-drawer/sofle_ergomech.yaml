@@ -127,10 +127,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - Alt+Ctl+RIGHT ARROW
+  - Ctl+TAB
   - Ctl+Alt+ENTER
-  - Alt+Ctl+LEFT ARROW
-  - Ctl+Alt+DELETE
+  - Ctl+Sft+TAB
+  - Gui+H
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
