@@ -201,3 +201,5 @@ combos:
   k: Ctl+Gui+SPACE
 - p: [12, 23]
   k: Alt+Ctl+SPACE
+- p: [31, 32]
+  k: ESCAPE
