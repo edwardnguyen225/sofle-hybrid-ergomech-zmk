@@ -39,6 +39,11 @@
             bindings = <&kp LA(LC(SPACE))>;
             key-positions = <12 23>;
         };
+
+        escape_with_jk {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
@@ -88,7 +93,9 @@
                                                                 &none      &kp LC(LG(L))  &kp LC(UP_ARROW)  &kp LC(LG(H))  &kp LC(DOWN_ARROW)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
